@@ -1,4 +1,4 @@
-# Simple RAG Chatbot with Langchain
+# Simple RAG Chatbot with OpenAI API And Langchain
 
 ## Overview
 The goal of this project is to develop a **domain-specific application** that combines the strengths of a **Large Language Model (LLM)** with the **efficiency of a vector database** for data storage and retrieval. Using **Retrieval-Augmented Generation (RAG)** for the method and **Streamlit** for the front-end, the application is built with Python.
@@ -13,7 +13,6 @@ The goal of this project is to develop a **domain-specific application** that co
 - **src/**: Contains Python-based chatbot script and Streamlit main script.
 - **src/materials/**: Contains data that our model will use to answer questions.
 - **report/**: Stores [Report](report) files.
-- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube](https://youtu.be/wo-0wUplqSM).
 - **.env**: Contains API keys.
 
 ## Dependencies
@@ -25,8 +24,8 @@ The goal of this project is to develop a **domain-specific application** that co
 - pypdf
 
 ## Usage
-1. Clone the repository: `git clone https://github.com/Faridghr/Simple-RAG-Chatbot.git`
-2. Navigate to the project directory: `cd Simple-RAG-Chatbot`
+1. Clone the repository: `git clone https://github.com/Raheemdevlops/RAG%20Chatbot%20with%20LangChain%20and%20OpenAI.git`
+2. Navigate to the project directory: `cd "RAG Chatbot with LangChain and OpenAI"`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Set up your LLM.
 5. Set up your Pinecone API key in `.env` file.
