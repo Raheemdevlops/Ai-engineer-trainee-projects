@@ -7,11 +7,13 @@ This project builds a machine learning model to classify SMS messages as Spam or
 Source: UCI Machine Learning Repository
 Total messages: 5,572
 Labels: Spam, Ham
+
 ⚙️ Approach
 
 Text preprocessing
 TF-IDF vectorization
 Multinomial Naive Bayes classifier
+
 📈 Results
 
 Accuracy: ~97%
@@ -28,5 +30,6 @@ pandas
 pip install -r requirements.txt
 python src/train.py
 python src/predict.py
+
 
 
