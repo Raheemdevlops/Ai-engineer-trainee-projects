@@ -16,13 +16,17 @@ Multinomial Naive Bayes classifier
 
 Accuracy: ~97%
 High precision and recall for spam detection
+
 🛠 Tech Stack
+
 Python
 scikit-learn
 pandas
 
 ⏩ How to Run
+
 pip install -r requirements.txt
 python src/train.py
 python src/predict.py
+
 
