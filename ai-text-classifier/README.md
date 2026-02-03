@@ -1,6 +1,6 @@
 📩 SMS Spam Classifier
 
-This project builds a machine learning model to classify SMS messages as *Spam* or *Ham* using the UCI SMS Spam Collection dataset.
+This project builds a machine learning model to classify SMS messages as **Spam** or **Ham** using the UCI SMS Spam Collection dataset.
 
 📊 Dataset
 - Source: UCI Machine Learning Repository
