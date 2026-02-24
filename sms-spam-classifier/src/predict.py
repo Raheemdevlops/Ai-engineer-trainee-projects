@@ -22,7 +22,7 @@ except Exception as e:
 def predict_sms(text):
     vec = vectorizer.transform([text])
     result = model.predict(vec)[0]
-    return "SPAM 🚨" if result == 1 else "HAM ✅"
+    return "SPAM 🚨" if result == 1 else "HAM(Not Spam) ✅"
 
 def main():
     try:
@@ -35,3 +35,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
